@@ -1,0 +1,92 @@
+/* used for errors */
+@define-color red_flame #C53030; # Brightest, most intense red
+/* standard red colors */
+@define-color red_glowing #DF6464; # Slightly deeper glowing red
+@define-color red_ember #B14242; # Deep, smoldering ember red
+
+/* standard orange colors */
+@define-color orange_glow #D87C4A; /* Bright, glowing orange */
+@define-color orange_blaze #C4693D; /* Vibrant blaze orange */
+@define-color orange_smolder #E49A44;
+
+/* used for warnings */
+@define-color orange_golden #E5A72A;
+
+/* NOTE: These reds are not widely used and will likely be fazed out in a future update. */
+@define-color red_kindling #BD4C4C; /* Light, warm red */
+@define-color red_burnt_crimson #A84848; /* Muted crimson red */
+@define-color red_brick #853D3D; /* Muted, earthy brick red */
+@define-color red_deep_ember #7A2E2E; /* Dark, deep ember red */
+@define-color red_ashen #6F2929; /* Cool, ashen red */
+
+/* standard misc colors */
+@define-color blue #4A8B8B; /* Muted teal, soft and unobtrusive */
+@define-color blue_dark #3A6E6E; /* Dark teal, ideal for subtle backgrounds */
+/* strong contender: #629C7D */
+@define-color green_light #629C7D;
+@define-color green #1E6F54;
+
+/* standard grayscale palette */
+@define-color background #121212;
+@define-color foreground #d5d5d5;
+@define-color surface #323232;
+/* duplicate for compatibility */
+/* g_0 will be removed in future */
+@define-color g_0 #e5e5e5;
+@define-color g_1 #e5e5e5;
+@define-color g_2 #d5d5d5;
+@define-color g_3 #b4b4b4;
+@define-color g_4 #a7a7a7;
+@define-color g_5 #949494;
+@define-color g_6 #737373;
+@define-color g_7 #535353;
+@define-color g_8 #323232;
+@define-color g_9 #212121;
+@define-color g_10 #1d1d1d;
+@define-color g_11 #191919;
+@define-color g_12 #151515;
+
+
+
+@define-color accent_bg_color @orange_smolder;
+@define-color accent_fg_color @foreground;
+@define-color accent_color @orange_smolder;
+
+@define-color destructive_bg_color @background; 
+@define-color destructive_fg_color @foreground;
+@define-color destructive_color @background;
+
+@define-color success_bg_color @background;
+@define-color success_fg_color @foreground;
+@define-color success_color @green_light;
+
+@define-color warning_bg_color @orange_golden;
+@define-color warning_fg_color @foreground;
+@define-color warning_color @orange_golden;
+
+@define-color error_bg_color @red_flame;
+@define-color error_fg_color @foreground;
+@define-color error_color @red_flame;
+
+@define-color window_bg_color @background;
+@define-color window_fg_color @foreground;
+
+@define-color view_bg_color @surface;
+@define-color view_fg_color @foreground;
+
+@define-color headerbar_bg_color @background;
+@define-color headerbar_fg_color @foreground;
+@define-color headerbar_backdrop_color @background;
+@define-color headerbar_shade_color @foreground;
+
+
+@define-color card_bg_color @surface;
+@define-color card_fg_color @foreground;
+@define-color card_shade_color @surface;
+
+@define-color popover_bg_color @surface;
+@define-color popover_fg_color @foreground;
+
+@define-color sidebar_backdrop_color @surface;
+@define-color sidebar_bg_color @surface;
+@define-color sidebar_fg_color @foreground;
